@@ -11,10 +11,13 @@ const listaCompleta = document.querySelector('.list-task')
 let minhaLista = [];
 
 function addTarefa() {
-    minhaLista.push({
-        tarefa: input.value,
-        concluida: false
-    })
+    
+    if(input.value && input.value.match(/[aA1-zZ0]/i)){
+        minhaLista.push({
+            tarefa: input.value,
+            concluida: false
+        })
+    }
 
     input.value = ''
 
