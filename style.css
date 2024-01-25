@@ -104,6 +104,7 @@ body{
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(25px);
+    color: #fff;
 }
 
 .input-task::placeholder{
@@ -168,3 +169,10 @@ img {
     opacity: 1;
 }
 
+.done{
+    text-decoration: line-through;
+}
+
+.done img{
+    opacity: 0.5;
+}
