@@ -176,3 +176,20 @@ img {
 .done img{
     opacity: 0.5;
 }
+
+@media(max-width: 1080px) {
+    .container{
+        width: 23em;
+        margin-top: 200px;
+    }
+    .button-add-task{
+        width: 100%;
+        margin-top: 5px;
+    }
+    .input-task{
+        width: 100%;
+    }
+    .list-task{
+        margin-top: 50px;
+    }
+}
